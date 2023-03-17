@@ -10,7 +10,7 @@ export default function WorkerCard(props) {
         <h4>N.O: {props.val.number}</h4>
         <h4>ForkLift:{props.val.forkLift ? "yes" : "no"}</h4>
       </div>
-      <h4>list of product:</h4>
+      <h4>list of product that not in place:</h4>
       {props.val.prodArr.map((val, indexProd) => {
         return (
           props.val.prodArr[indexProd].condicion == false && (

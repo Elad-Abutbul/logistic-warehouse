@@ -17,7 +17,7 @@ function App() {
       workers[indexList].forkLift == false &&
       workers[indexList].prodArr[indexProd].forkLift
     ) {
-      alert("need a forkLift");
+      alert("need a forkLift license");
     } else {
       workers[indexList].prodArr[indexProd].condicion = true;
       workers[indexList].putInPlace++;

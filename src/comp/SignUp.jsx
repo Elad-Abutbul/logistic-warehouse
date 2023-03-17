@@ -40,7 +40,7 @@ export default function SignUp(props) {
           setFullName(e.target.value);
         }}
       />
-      <h4>ForkLift?</h4>
+      <h4>ForkLift license?</h4>
       <div>
         <input
           type="radio"

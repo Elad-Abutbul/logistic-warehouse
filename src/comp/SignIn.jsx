@@ -14,6 +14,7 @@ export default function SignIn(props) {
   };
   return (
     <div>
+      <p>to sign in to admin put 99999</p>
       <input
         type="text"
         placeholder="N.O"

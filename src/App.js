@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <h1>Logistic Garage</h1>
+        <h1>Logistic warehouse</h1>
         <Routes>
           <Route path="*" element={<Main />} />
           <Route path="/signIn" element={<SignIn workers={workers} />} />
